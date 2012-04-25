@@ -1,0 +1,67 @@
+#liteBox-overlay {
+	margin: 0;
+	padding: 0;
+	background: rgba(0,0,0,.7);
+	display: none;
+	position: absolute;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+#liteBox-overlay .liteBox {
+	margin: 0;
+	padding: 10px;
+	background: #FFFFFF;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	color: #333;
+	max-width: 80%;
+	width: auto;
+	min-width: 400px;
+	min-height: 200px;
+	display: inline-block;
+	-moz-box-shadow: 0 0 10px #333;
+	-webkit-box-shadow: 0 0 10px #333;
+	box-shadow: 0 0 10px #333;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+#liteBox-overlay .liteBox .close {
+	margin: 0 10px;
+	width: 20px;
+	height: 20px;
+	line-height: 16px;
+	font-size: 14px;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	position: absolute;
+	z-index: 1001;
+	right: 0;
+	background: #FFF;
+	color: #666;
+	border: 1px solid #999;
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+	-moz-box-shadow: 0 0 3px #999;
+	-webkit-box-shadow: 0 0 3px #999;
+	box-shadow: 0 0 3px #999;
+}
+
+#liteBox-overlay .liteBox .liteBox-container {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#liteBox-overlay .liteBox .liteBox-container img {
+	text-align: center;
+	vertical-align: middle;
+	border: 0;
+}
