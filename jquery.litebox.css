@@ -1,0 +1,74 @@
+.litebox-background {
+  display: none;
+  position: fixed;
+  z-index: 200;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); }
+
+.litebox-wrapper {
+  display: none;
+  position: fixed;
+  min-width: 200px;
+  min-height: 150px;
+  max-width: 90%;
+  max-height: 420px;
+  padding: 10px;
+  background: #FFF;
+  border-radius: 3px;
+  box-shadow: 0 0 1px #333333;
+  z-index: 205;
+  top: 50%;
+  left: 50%;
+  margin-left: -100px;
+  margin-top: -75px;
+  transition: margin 200ms, width 200ms, height 200ms;
+  -webkit-transition: margin 200ms, width 200ms, height 200ms;
+  -moz-transition: margin 200ms, width 200ms, height 200ms;
+  -o-transition: margin 200ms, width 200ms, height 200ms; }
+  .litebox-wrapper .litebox-close {
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 2px 6px;
+    border-radius: 10px;
+    background: #FFF; }
+  .litebox-wrapper .litebox-content {
+    display: block;
+    overflow: auto;
+    max-height: 400px; }
+    .litebox-wrapper .litebox-content img {
+      max-width: 500px;
+      display: block; }
+    .litebox-wrapper .litebox-content iframe {
+      display: block;
+      border: none;
+      overflow: auto;
+      min-width: 400px;
+      min-height: 300px; }
+    .litebox-wrapper .litebox-content .html {
+      display: block;
+      margin: 10px; }
+  .litebox-wrapper .litebox-arrow {
+    display: none;
+    position: absolute;
+    top: 50%;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 1px 6px 2px;
+    border-radius: 10px;
+    background: #FFF;
+    margin-top: -10px; }
+    .litebox-wrapper .litebox-arrow.left {
+      left: 2px; }
+    .litebox-wrapper .litebox-arrow.right {
+      right: 2px; }
