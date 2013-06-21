@@ -6,7 +6,7 @@ It's built off of Chapter 4 of Pro jQuery Plugins ( http://projqueryplugins.com 
 
 ## Usage
 
-Get https://raw.github.com/BrunoBernardino/LiteBox/master/jquery.litebox.min.js and https://raw.github.com/BrunoBernardino/LiteBox/master/jquery.litebox.css, include them in your site and call the following (supposing you'd want input validation on all links in a .thumbnails .thumbnail anchor element):
+Get https://raw.github.com/BrunoBernardino/LiteBox/master/jquery.litebox.min.js and https://raw.github.com/BrunoBernardino/LiteBox/master/jquery.litebox.css, include them in your site and call the following (supposing you'd want a liteBox to be triggered on all links in a .thumbnails .thumbnail anchor element):
 
 ```javascript
 $('.thumbnails .thumbnail a').litebox();
