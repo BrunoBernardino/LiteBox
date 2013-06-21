@@ -1,1 +1,4 @@
-$('.thumbnails .thumbnail a').litebox()
+(($, window) ->
+	$('.thumbnails .thumbnail a').litebox()
+	true
+)(jQuery, _, window)

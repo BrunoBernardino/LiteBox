@@ -1,6 +1,6 @@
 # liteBox - A Lightweight & Simple jQuery Lightbox-like Plugin
 
-liteBox is a lightweight & simple jQuery lightbox-like plugin. Currently at version 2.0, it's now built in CoffeeScript, compiled to unminified and minified JavaScript.
+liteBox is a lightweight & simple jQuery lightbox-like plugin. Currently at version 2.0.1, it's now built in CoffeeScript, compiled to unminified and minified JavaScript.
 
 It's built off of Chapter 4 of Pro jQuery Plugins ( http://projqueryplugins.com ).
 
